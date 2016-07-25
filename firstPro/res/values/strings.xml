@@ -1,0 +1,6 @@
+<resources>
+
+    <string name="app_name">myhello</string>
+    <string name="msg">안녕</string>
+
+</resources>

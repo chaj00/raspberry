@@ -1,0 +1,34 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+    <EditText
+        android:id="@+id/editTextIPAddress"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:gravity="center_vertical|center_horizontal"
+        android:inputType="text"
+        android:text="IP" />
+    <Button
+        android:id="@+id/buttonConnect"
+        android:layout_width="120dp"
+        android:layout_height="wrap_content"
+        android:text="Connect" />
+
+  
+
+    <Button
+        android:id="@+id/ledOff"
+        android:layout_width="80dp"
+        android:layout_height="wrap_content"
+        android:text="LED off" />
+
+    <Button
+        android:id="@+id/ledOn"
+        android:layout_width="80dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="32dp"
+        android:text="LED on" />
+
+</LinearLayout>
